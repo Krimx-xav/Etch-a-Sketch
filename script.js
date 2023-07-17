@@ -21,7 +21,7 @@ function changeSize(input) {
     if (input >= 2 && input <= 100) {
         customizeBoard(input);
     } else {
-        prompt("You exceed the set squares choice");
+        alert("The value must be between 2-100, Please enter another number.");
     }
 
 }
